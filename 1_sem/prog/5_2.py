@@ -13,17 +13,17 @@ print('''Выберите код приближения
 2. Pi = ( (3 + 10/71) + (3+1/7) )/2 (Архимед)
 3. Pi = 3,1415926535… (Транслятор Паскаля)
 ''')
-cod = int(input('Введите выбранное значение '))
+cod = str(input('Введите выбранное значение '))
 #echo-print
 print('Вы выбрали код', cod)
 match cod:
-    case 1:
+    case '1':
         num = sqrt(10)
         print('pi = ', num)
-    case 2:
+    case '2':
         num = ((3+10/71)+(3+1/7))/2
         print('pi = ', num)
-    case 3:
+    case '3':
         num = pi
         print('pi = ', num)
     case _:
