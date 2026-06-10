@@ -9,22 +9,26 @@
 #Переменные:
             #n - количество элементов кортежа
             #k - исходный кортеж
-            #el - элемент для поиска в кортеже
-            #last_index - индекс первого появления элемента в кортеже
-            #first_index - индекс второго появления элемента в кортеже
-            #t - результирующий кортеж, начинающийся с первого появления элемента и заканчивающийся вторым его появлением включительно
-import random as r
-n = int(input('Введите количество элементов кортежа '))
-k = tuple()
-for i in range(n):
-    el = r.randint(-10, 10)
-    k += (el,)
-print('Кортеж:', k)
-el = int(input('Введите элемент для поиска в кортеже '))
-if el in k:
-    first_index = k.index(el)
-    last_index = k.index(el, el + 1)
-    t = k[first_index:last_index + 1] 
+            #x - элемент для проверки
+            #res - искомый кортеж
+n = int(input("Введите n:"))
+k = tuple(int(input("Введите число:")) for _ in range(n))
+x = int(input("Введите элемент x:"))
+fp=-228
+sp=-228
+for i in range(len(k)):
+    if k[i] == x:
+        if fp == -228:
+            fp = i
+        elif sp == -228:
+            sp = i
+            break
+if fp == -228 and sp==-228:
+    res =()
 else:
-    t = ()
-print('Результирующий кортеж:', t) 
+    if sp == -228:
+        res=k[fp:]
+        print("a")
+    else:
+        res=k[fp:sp+1]
+print(res)

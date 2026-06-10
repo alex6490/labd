@@ -9,18 +9,14 @@
 #Переменные:
             #n - количество элементов кортежа
             #k - исходный кортеж
-            #el - элемент для удаления из кортежа
-import random as r
-n = int(input('Введите количество элементов кортежа '))
-k = tuple()
-for i in range(n):
-    el = r.randint(-10, 10)
-    k += (el,)
-print('Кортеж:', k)
-el = int(input('Введите элемент для удаления из кортежа '))
-if el in k:
-    index = k.index(el)
-    k = k[:index] + k[index+1:]
-    print('Кортеж после удаления элемента:', k)
+            #x - элемент для удаления
+n = int(input("Введите n:"))
+k = tuple(int(input("Введите число:")) for _ in range(n))
+x = int(input("Введите элемент x:"))
+i = 0
+while i <len(k) and k[i] != x: # 1 2 3 4 5
+    i += 1
+if i == len(k):
+    print(k)
 else:
-    print('Элемент не найден в кортеже. Кортеж остается без изменений:', k)
+    print(k[:i]+k[i+1:])
