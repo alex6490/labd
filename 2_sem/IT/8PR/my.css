@@ -1,0 +1,18 @@
+h1 {font-family:Arial; font-style:italic; font-size:36pt; color:red; text-align:center; background-image:url("oblaka.jpg"); background-attachment:fixed}
+h2 {font-family:Arial; font-style:italic; font-size:24pt; color:green;}
+p {font-family:Times New Roman; font-size:18pt; color:brown; line-height: 1.5cm; text-indent: 1.5cm;}
+span {color: blue; font-weight: bold; letter-spacing: 4pt; text-decoration: underline;}
+h2 a {font-family: Arial; font-style: italic; font-size: 24pt; color: green; text-decoration: none;}
+.cl1 {text-align: left;}
+.cl2 {text-align: center;}
+a:link {color: brown; text-decoration: none;}
+a:visited {color: blue;}
+a:hover {color: red; text-decoration: underline;}
+.p1{font-style: italic; font-size: 12;}
+.p2{font-weight: bold; font-size: 14;}
+#a {border-width: 12pt; border-color: gray; border-style: outset; margin: 1cm;}
+#b {border-width: 5pt; border-color: red; border-style: dotted; margin: 2cm;}
+#c {border-width: 2pt; border-color: orange; border-style: dotted; margin: 3cm;}
+#d {border-width: 4pt; border-color: blue; border-style: inset; margin: 4cm;}
+#e {border-width: 8pt; border-color: cyan; border-style: groove; margin: 5cm;} 
+#f {border-width: 6pt; border-color: green; border-style: dashed; margin: 6cm;}

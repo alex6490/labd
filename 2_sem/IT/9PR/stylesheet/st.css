@@ -1,0 +1,11 @@
+#p1 {position:absolute; left:60px; top:120px; color:#191970; background-color:#6495ED}
+#p2 {position:absolute; left:150px; top:250px; color:#A0522D; background-color:#F5DEB3}
+#p3 {position:absolute; left:220px; top:380px; color:#228B22; background-color:#98FB98}
+#img1 {position:absolute; left:30px; top:800px}
+#img2 {position:absolute; left:80px; top:400px}
+#img3 {position:absolute; left:900px; top:250px}
+body {margin:1cm; background-color:#E6E6FA; background-image:url(kniga.png); background-position:100% 0%; background-repeat:repeat-y;}
+h1 {color:#6A5ACD; font-style:Arial; font-size:40pt}
+.shadow {position:absolute; color:#888888; left:20; top:20}
+.text {position:absolute; left:17; top:17}
+p {font-family:Times New Roman; font-size:16pt; font-style:italic; font-weight:bold; padding:20px; border-style:solid; border-width:8px}

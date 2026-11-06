@@ -1,0 +1,16 @@
+.b1 {background-color:#87CEEB}
+.b2 {background-color:#EEE8AA}
+.b3 {background-color:#DB7093}
+.b4 {background-color:#20B2AA}
+
+.h_1 {color:#A020F0}
+.h_2 {color:#808000}
+.h_3 {color:#54FF9F}
+.h_4 {color:#E0FFFF}
+
+.o1 {color:#A020F0}
+.o2 {list-style-type:upper-roman; color:#A020F0;}
+.u1 {color:#808000}
+.u2 {list-style-type:circle; color:#808000}
+.u3 {list-style-type:upper-alpha; color:#54FF9F}
+.d1 {color:#E0FFFF}
